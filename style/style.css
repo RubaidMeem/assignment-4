@@ -1,0 +1,126 @@
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.stats{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+
+  .delete-icon {
+  width: 20px;
+  height: 20px;
+  float: right; 
+
+ 
+}
+
+.box-tab{
+   
+border:black;
+  margin-top: 20px;
+  gap: 30px;
+
+}
+
+
+
+
+.box{
+  text-align: center;
+  width: 500px;
+  
+
+  height: 100px;
+  
+  border: 1px solid #ddd;
+ gap: 10px;
+ text-align:auto;
+ background-color: #f9f9f9;
+}
+
+.box p{
+  color: gray;
+  font-size: 14px;
+}
+
+.box h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border: none;
+  background: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tab.active {
+  border: #ddd;
+
+}
+
+
+ 
+
+
+
+
+.actions {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.interview {
+  background: #28a745;
+  color: white;
+}
+
+.btn.rejected {
+  background: #dc3545;
+  color: white;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+}
+
+.empty-state img {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 600px) {
+  .tabs {
+    overflow-x: auto;
+  }
+  .job-card {
+    font-size: 0.9rem;
+  }
+}
